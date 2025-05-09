@@ -1,0 +1,33 @@
+[terminal.shell]
+program = "wsl ~"
+[general]
+import = [
+  "./themes/gruvbox_dark.toml"
+]
+
+[window]
+dimensions = { columns = 100, lines = 30 }
+position = { x = 100, y = 100 }
+dynamic_title = false
+decorations = "transparent"
+padding = { x = 0, y = 0 }
+
+[font]
+size = 13
+offset = { x = 2, y = 1}
+
+[font.normal]
+family = "CaskaydiaCove NF"
+style = "Regular"
+
+[font.bold]
+family = "CaskaydiaCove NF"
+style = "Bold"
+
+[font.italic]
+family = "CaskaydiaCove NF"
+style = "Italic"
+
+[font.bold_italic]
+family = "CaskaydiaCove NF"
+style = "BoldItalic"
